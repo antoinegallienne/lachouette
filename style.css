@@ -361,6 +361,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+/* -----------------------------------------------------------------*/
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -402,6 +403,8 @@ a:hover {
         margin: 10px auto 0;
     }
 }
+
+/* ------------------------ fin  -----------------------------------------*/
 
 .nav > li > .dropdown a {
     background: none!important;
@@ -822,8 +825,10 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
+
+/* ----------------------------- Suite ------------------------------------*/
 
 @media (max-width: 1024px) {
     .bloc {
