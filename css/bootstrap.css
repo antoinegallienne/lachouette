@@ -2087,8 +2087,15 @@ pre code {
 .col-xs-9 {
     float: left
 }
-
 .col-xs-12 {
+    width: 100%
+}
+.col-xs-12-7 {
+    font-size: 12px;
+    width: 100%
+}
+.col-xs-12-5 {
+    font-size: 20px;
     width: 100%
 }
 
@@ -2306,6 +2313,10 @@ pre code {
     .col-sm-8,
     .col-sm-9 {
         float: left
+    }
+    .col-sm-12-5 {
+        font-size: 25px;
+        width: 100%
     }
     .col-sm-12 {
         width: 100%
