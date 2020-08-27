@@ -2342,7 +2342,12 @@ pre code {
         width: 41.66666667%
     }
     .col-sm-4 {
+        font-size: 17px ;
+        margin-bottom: 30px;
         width: 33.33333333%
+    }
+    .col-sm-4 li{
+      padding-top: 5PX;
     }
     .col-sm-3 {
         font-size: 15px ;
