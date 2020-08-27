@@ -2315,7 +2315,6 @@ pre code {
         float: left
     }
     .col-sm-12-5 {
-        font-size: 25px;
         width: 100%
     }
     .col-sm-12 {
@@ -2346,6 +2345,7 @@ pre code {
         width: 33.33333333%
     }
     .col-sm-3 {
+        font-size: 15px ;
         width: 25%
     }
     .col-sm-2 {
