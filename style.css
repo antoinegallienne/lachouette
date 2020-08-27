@@ -17,7 +17,7 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+/*
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -25,7 +25,7 @@ a:hover {
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
+}*/
 
 .bloc {
     width: 100%;
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -680,7 +680,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -705,6 +705,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -722,7 +724,7 @@ h3 {
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
-    box-shadow: 0px 0px 0px #000000;
+    box-shadow: 0 0 0 #000000;
 }
 
 h1 {
@@ -846,7 +848,8 @@ h4 {
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media (max-width: 992px)
+and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
     }
@@ -855,13 +858,19 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
