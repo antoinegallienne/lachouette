@@ -685,7 +685,8 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto ;
+    font-size: 18px;
 }
 
 .h1 {
@@ -783,7 +784,7 @@ h4 {
     color: #F9A37B!important;
 }
 .tc-white-contact {
-    color: #3D3D3D!important;
+    color: #1A1A1A!important;
 }
 .btn-atomic-tangerine {
     background: #F3976C;
